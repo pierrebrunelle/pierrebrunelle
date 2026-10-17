@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="100%" height="100%" role="img" aria-label="Pierre Brunelle — Co-Founder &amp; CEO at Pixeltable">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090b10"/>
+      <stop offset="55%" stop-color="#0d111a"/>
+      <stop offset="100%" stop-color="#111624"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#131926" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0c1018" stop-opacity="0.92"/>
+    </linearGradient>
+
+    <linearGradient id="nodeActiveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <radialGradient id="glowIndigo" cx="72%" cy="50%" r="42%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#06b6d4" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#090b10" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.55"/>
+    </pattern>
+
+    <pattern id="majorGrid" width="96" height="96" patternUnits="userSpaceOnUse">
+      <rect width="96" height="96" fill="url(#grid)"/>
+      <path d="M 96 0 L 0 0 0 96" fill="none" stroke="#334155" stroke-width="0.8" stroke-opacity="0.5"/>
+    </pattern>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <path id="laneTop" d="M 608 156 C 632 156, 634 102, 658 102" fill="none"/>
+    <path id="laneMid" d="M 608 156 L 658 156" fill="none"/>
+    <path id="laneBot" d="M 608 156 C 632 156, 634 210, 658 210" fill="none"/>
+    <path id="laneOutTop" d="M 796 102 C 816 102, 818 156, 836 156" fill="none"/>
+    <path id="laneOutMid" d="M 796 156 L 836 156" fill="none"/>
+    <path id="laneOutBot" d="M 796 210 C 816 210, 818 156, 836 156" fill="none"/>
+
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .cursor { animation: blink 1.1s step-end infinite; }
+      .pulse { animation: pulseOp 2.4s ease-in-out infinite; }
+      .flow-line { stroke-dasharray: 5 5; animation: dashFlow 1.6s linear infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes pulseOp { 0%, 100% { opacity: 0.95; } 50% { opacity: 0.35; } }
+      @keyframes dashFlow { to { stroke-dashoffset: -20; } }
+    </style>
+  </defs>
+
+  <!-- Outer Frame & Blueprint Grid -->
+  <rect width="960" height="320" rx="14" fill="url(#bgGrad)"/>
+  <rect width="960" height="320" rx="14" fill="url(#majorGrid)"/>
+  <rect width="960" height="320" rx="14" fill="url(#glowIndigo)"/>
+  <rect x="0.75" y="0.75" width="958.5" height="318.5" rx="13.25" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Top Accent Line -->
+  <rect x="28" y="0" width="904" height="2" fill="url(#accentGrad)" opacity="0.85"/>
+
+  <!-- Blueprint Coordinates / Telemetry Header -->
+  <g class="mono" font-size="10.5" fill="#64748b">
+    <text x="32" y="28">$ whoami --profile pierrebrunelle</text>
+    <rect x="242" y="18" width="6" height="12" fill="#818cf8" class="cursor"/>
+    <text x="928" y="28" text-anchor="end">47.6062° N, 122.3321° W // SEATTLE, WA</text>
+  </g>
+  <line x1="32" y1="38" x2="928" y2="38" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- ================= LEFT COLUMN: IDENTITY & ARCHITECTURE ================= -->
+  <g transform="translate(32, 68)">
+    <!-- Status Pill -->
+    <rect x="0" y="0" width="276" height="24" rx="12" fill="#111827" stroke="#312e81" stroke-width="1"/>
+    <circle cx="14" cy="12" r="4" fill="#10b981" class="pulse"/>
+    <text x="26" y="16" class="mono" font-size="10.5" fill="#cbd5e1" font-weight="600">CO-FOUNDER &amp; CEO</text>
+    <text x="138" y="16" class="mono" font-size="10.5" fill="#818cf8" font-weight="600">@pixeltable</text>
+    <!-- PXT-VERSION:START --><text x="216" y="16" class="mono" font-size="10" fill="#64748b">v0.7.18</text><!-- PXT-VERSION:END -->
+
+    <!-- Name -->
+    <text x="0" y="64" class="sans" font-size="34" font-weight="800" fill="#f8fafc" letter-spacing="-0.8">Pierre Brunelle</text>
+
+    <!-- Subtitle / Thesis -->
+    <text x="0" y="92" class="sans" font-size="14.5" font-weight="500" fill="#cbd5e1">
+      Building the backend agents build with —
+    </text>
+    <text x="0" y="112" class="sans" font-size="14.5" font-weight="500" fill="#94a3b8">
+      multimodal data, declarative compute &amp; serving in <tspan class="mono" fill="#38bdf8" font-size="13.5">app.py</tspan>.
+    </text>
+
+    <!-- Career Trajectory Chips -->
+    <g transform="translate(0, 134)" class="mono" font-size="10.5">
+      <rect x="0" y="0" width="96" height="24" rx="5" fill="#1e1b4b" stroke="#4f46e5" stroke-width="1"/>
+      <text x="48" y="15.5" text-anchor="middle" fill="#e0e7ff" font-weight="600">Pixeltable</text>
+
+      <text x="105" y="15.5" fill="#475569">←</text>
+
+      <rect x="118" y="0" width="168" height="24" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="202" y="15.5" text-anchor="middle" fill="#94a3b8">Noteable <tspan fill="#64748b">(acq. Confluent)</tspan></text>
+
+      <text x="295" y="15.5" fill="#475569">←</text>
+
+      <rect x="308" y="0" width="154" height="24" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="385" y="15.5" text-anchor="middle" fill="#94a3b8">AWS · Amazon · Siemens</text>
+    </g>
+
+    <!-- Engineering Roots Footer -->
+    <g transform="translate(0, 178)" class="mono" font-size="11">
+      <text x="0" y="14" fill="#64748b">DISCIPLINES //</text>
+      <text x="98" y="14" fill="#e2e8f0">AI Data Infrastructure</text>
+      <text x="248" y="14" fill="#475569">·</text>
+      <text x="258" y="14" fill="#94a3b8">Decision Science</text>
+      <text x="368" y="14" fill="#475569">·</text>
+      <text x="378" y="14" fill="#94a3b8">Structural Eng</text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: LIVE PIPELINE TERMINAL ================= -->
+  <g transform="translate(508, 54)">
+    <!-- Terminal Window Card -->
+    <rect x="0" y="0" width="420" height="218" rx="10" fill="url(#cardGrad)" stroke="#1e293b" stroke-width="1.25"/>
+    <rect x="0" y="0" width="420" height="28" rx="10" fill="#0f172a"/>
+    <line x1="0" y1="28" x2="420" y2="28" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Window Controls -->
+    <circle cx="14" cy="14" r="4.5" fill="#ef4444" opacity="0.8"/>
+    <circle cx="28" cy="14" r="4.5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="42" cy="14" r="4.5" fill="#10b981" opacity="0.8"/>
+    <text x="210" y="18" text-anchor="middle" class="mono" font-size="10.5" fill="#94a3b8" font-weight="600">app.py — Declarative Multimodal Pipeline</text>
+  </g>
+
+  <!-- Pipeline Flow Coordinates (Global SVG coords for animateMotion) -->
+  <!-- Connector Paths -->
+  <use href="#laneTop" stroke="#334155" stroke-width="1.5"/>
+  <use href="#laneMid" stroke="#334155" stroke-width="1.5"/>
+  <use href="#laneBot" stroke="#334155" stroke-width="1.5"/>
+  <use href="#laneOutTop" stroke="#334155" stroke-width="1.5"/>
+  <use href="#laneOutMid" stroke="#334155" stroke-width="1.5"/>
+  <use href="#laneOutBot" stroke="#334155" stroke-width="1.5"/>
+
+  <use href="#laneTop" stroke="#6366f1" stroke-width="1.5" class="flow-line" opacity="0.7"/>
+  <use href="#laneMid" stroke="#06b6d4" stroke-width="1.5" class="flow-line" opacity="0.7"/>
+  <use href="#laneBot" stroke="#a855f7" stroke-width="1.5" class="flow-line" opacity="0.7"/>
+  <use href="#laneOutTop" stroke="#6366f1" stroke-width="1.5" class="flow-line" opacity="0.7"/>
+  <use href="#laneOutMid" stroke="#06b6d4" stroke-width="1.5" class="flow-line" opacity="0.7"/>
+  <use href="#laneOutBot" stroke="#a855f7" stroke-width="1.5" class="flow-line" opacity="0.7"/>
+
+  <!-- Animated Data Packets -->
+  <circle r="3" fill="#818cf8" filter="url(#softGlow)">
+    <animateMotion dur="2.6s" repeatCount="indefinite" path="M 608 156 C 632 156, 634 102, 658 102"/>
+  </circle>
+  <circle r="3" fill="#22d3ee" filter="url(#softGlow)">
+    <animateMotion dur="2.2s" begin="0.4s" repeatCount="indefinite" path="M 608 156 L 658 156"/>
+  </circle>
+  <circle r="3" fill="#c084fc" filter="url(#softGlow)">
+    <animateMotion dur="2.8s" begin="0.9s" repeatCount="indefinite" path="M 608 156 C 632 156, 634 210, 658 210"/>
+  </circle>
+  <circle r="3" fill="#34d399" filter="url(#softGlow)">
+    <animateMotion dur="2.4s" begin="1.1s" repeatCount="indefinite" path="M 796 156 L 836 156"/>
+  </circle>
+
+  <!-- Node 1: TableModel Ingest -->
+  <g transform="translate(522, 126)">
+    <rect x="0" y="0" width="86" height="60" rx="7" fill="url(#nodeActiveGrad)" stroke="#6366f1" stroke-width="1.2"/>
+    <text x="43" y="20" text-anchor="middle" class="mono" font-size="10" fill="#a5b4fc" font-weight="700">TableModel</text>
+    <text x="43" y="35" text-anchor="middle" class="mono" font-size="8.5" fill="#94a3b8">Video · Image</text>
+    <text x="43" y="48" text-anchor="middle" class="mono" font-size="8.5" fill="#94a3b8">Audio · Docs</text>
+  </g>
+
+  <!-- Node 2A: Computed Columns & UDFs -->
+  <g transform="translate(658, 82)">
+    <rect x="0" y="0" width="138" height="40" rx="6" fill="#0f172a" stroke="#4f46e5" stroke-width="1"/>
+    <text x="10" y="16" class="mono" font-size="9.5" fill="#c7d2fe" font-weight="600">@pxt.udf / Compute</text>
+    <text x="10" y="30" class="mono" font-size="8.5" fill="#64748b">Incremental DAG</text>
+  </g>
+
+  <!-- Node 2B: EmbeddingIndex -->
+  <g transform="translate(658, 136)">
+    <rect x="0" y="0" width="138" height="40" rx="6" fill="#0f172a" stroke="#0891b2" stroke-width="1"/>
+    <text x="10" y="16" class="mono" font-size="9.5" fill="#a5f3fc" font-weight="600">EmbeddingIndex</text>
+    <text x="10" y="30" class="mono" font-size="8.5" fill="#64748b">.similarity() recall</text>
+  </g>
+
+  <!-- Node 2C: Tool Calling & Memory -->
+  <g transform="translate(658, 190)">
+    <rect x="0" y="0" width="138" height="40" rx="6" fill="#0f172a" stroke="#7e22ce" stroke-width="1"/>
+    <text x="10" y="16" class="mono" font-size="9.5" fill="#e9d5ff" font-weight="600">invoke_tools()</text>
+    <text x="10" y="30" class="mono" font-size="8.5" fill="#64748b">Agent Memory &amp; LLM</text>
+  </g>
+
+  <!-- Node 3: FastAPIRouter Serving -->
+  <g transform="translate(836, 126)">
+    <rect x="0" y="0" width="78" height="60" rx="7" fill="#09191f" stroke="#10b981" stroke-width="1.2"/>
+    <text x="39" y="20" text-anchor="middle" class="mono" font-size="9.5" fill="#6ee7b7" font-weight="700">FastAPI</text>
+    <text x="39" y="35" text-anchor="middle" class="mono" font-size="8.5" fill="#94a3b8">pxt service</text>
+    <text x="39" y="48" text-anchor="middle" class="mono" font-size="8.5" fill="#34d399">pxt://cloud</text>
+  </g>
+
+  <!-- Terminal Footer Command Bar -->
+  <g transform="translate(522, 248)" class="mono" font-size="9.5">
+    <text x="0" y="11" fill="#10b981">➜</text>
+    <text x="14" y="11" fill="#cbd5e1">pxt schema update app.py &amp;&amp; pxt service update app.py -f</text>
+    <text x="392" y="11" text-anchor="end" fill="#38bdf8">200 OK</text>
+  </g>
+
+  <!-- Bottom Status Bar -->
+  <line x1="32" y1="286" x2="928" y2="286" stroke="#1e293b" stroke-width="1"/>
+  <g class="mono" font-size="10.5" fill="#64748b">
+    <text x="32" y="304">STACK // Python · PostgreSQL · FastAPI · Kubernetes · Multimodal AI · MCP</text>
+    <!-- PXT-TELEMETRY:START --><text x="928" y="304" text-anchor="end">★ 1,640 STARS · 28 RUNNABLE APPS · APACHE-2.0</text><!-- PXT-TELEMETRY:END -->
+  </g>
+</svg>
