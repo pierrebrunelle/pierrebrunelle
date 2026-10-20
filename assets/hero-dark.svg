@@ -85,7 +85,7 @@
     <circle cx="14" cy="12" r="4" fill="#10b981" class="pulse"/>
     <text x="26" y="16" class="mono" font-size="10.5" fill="#cbd5e1" font-weight="600">CO-FOUNDER &amp; CEO</text>
     <text x="138" y="16" class="mono" font-size="10.5" fill="#818cf8" font-weight="600">@pixeltable</text>
-    <!-- PXT-VERSION:START --><text x="216" y="16" class="mono" font-size="10" fill="#64748b">v0.7.18</text><!-- PXT-VERSION:END -->
+    <!-- PXT-VERSION:START --><text x="216" y="16" class="mono" font-size="10" fill="#64748b">v0.7.19</text><!-- PXT-VERSION:END -->
 
     <!-- Name -->
     <text x="0" y="64" class="sans" font-size="34" font-weight="800" fill="#f8fafc" letter-spacing="-0.8">Pierre Brunelle</text>
