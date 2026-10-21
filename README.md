@@ -25,7 +25,7 @@
 I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)** — open-source Python infrastructure that unifies **multimodal storage, incremental computation, vector indexing, tool-calling agents, and FastAPI serving** in a single declarative `app.py`.
 
 <!-- PIXELTABLE-META:START -->
-> 📦 **Latest release:** [`v0.7.19`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.19) &nbsp;·&nbsp; ⭐ **1,639 stars** &nbsp;·&nbsp; 🍴 **230 forks** &nbsp;·&nbsp; 🧪 **[32 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
+> 📦 **Latest release:** [`v0.7.19`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.19) &nbsp;·&nbsp; ⭐ **1,639 stars** &nbsp;·&nbsp; 🍴 **230 forks** &nbsp;·&nbsp; 🧪 **[33 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
 <!-- PIXELTABLE-META:END -->
 
 ---
@@ -45,18 +45,18 @@ I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)
 ### Latest Runnable Pixeltable Apps
 
 <!-- AWESOME-APPS:START -->
-_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (32 apps total, newest first):_
+_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (33 apps total, newest first):_
 
 | App | Architecture & Features | Launch |
 | :--- | :--- | :---: |
+| **[Delivery-Driver Incident Intake](https://github.com/pierrebrunelle/pixeltable-driver-incident-intake)**<br><sub>2026-10-21</sub> | Incident intake API for delivery drivers: voice note + photo upload, transcription, Pydantic-validated structured records from a vision model, async dispatch routing and SQL export<br><sub>`FastAPI serving` · `Computed columns & UDFs` · `Concurrency` · `Data reads & writes` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-driver-incident-intake?quickstart=1) |
 | **[Hot-Air Balloon Flight Ops](https://github.com/pierrebrunelle/pixeltable-balloon-flight-ops)**<br><sub>2026-10-20</sub> | Hot-air balloon flight log CLI: idempotent batch imports keyed by content hashes, computed burn/propane/payload columns, pxt revert and pxt rename for recovery, and a fingerprint command that rebuilds the cloud deploy fingerprint with Pixeltable's public hashing helpers<br><sub>`pxt CLI & dashboard` · `Computed columns & UDFs` · `B-tree indexes` · `pixeltable.toml config` · `Pixeltable Cloud`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-balloon-flight-ops?quickstart=1) |
 | **[Cooking-Class Video Moment Search](https://github.com/pierrebrunelle/pixeltable-cooking-video-search)**<br><sub>2026-10-19</sub> | Video moment search API for cooking classes: frame sampling, vision captions, semantic search that returns the mm:ss moment, scene detection and teaser clips<br><sub>`Media (images)` · `B-tree indexes` · `AI model functions` · `FastAPI serving` · `Computed columns & UDFs`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-cooking-video-search?quickstart=1) |
 | **[Bus Depot Operations](https://github.com/pierrebrunelle/pixeltable-bus-depot-dashboard)**<br><sub>2026-10-18</sub> | Bus depot operations dashboard: on-time rate and p90 delay per depot and route from custom UDAs, JSON map/filter/sort over per-stop delays, distinct() lookups, a windowed running total and a data-health check for telemetry that failed to parse<br><sub>`pxt CLI & dashboard` · `Computed columns & UDFs` · `B-tree indexes` · `pixeltable.toml config` · `Pixeltable Cloud`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-bus-depot-dashboard?quickstart=1) |
 | **[Podcast Transcript Search](https://github.com/pierrebrunelle/pixeltable-podcast-transcript-search)**<br><sub>2026-10-17</sub> | Searchable podcast and meeting transcript archive: silence-aware audio chunking, Whisper API transcription, semantic search with mm:ss offsets, and cover-art tiles<br><sub>`Media (images)` · `B-tree indexes` · `AI model functions` · `Computed columns & UDFs`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-podcast-transcript-search?quickstart=1) |
-| **[Solar Panel Inspection](https://github.com/pierrebrunelle/pixeltable-solar-inspection-labels)**<br><sub>2026-10-16</sub> | Labeling round-trip for solar panel inspection images: auto-detect hot spots, export the review queue to SQL, correct labels, re-import, diff and export COCO<br><sub>`Versioning & snapshots` · `Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-solar-inspection-labels?quickstart=1) |
 
 <div align="right">
-  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 32 runnable apps in the interactive gallery →</a></sub>
+  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 33 runnable apps in the interactive gallery →</a></sub>
 </div>
 <!-- AWESOME-APPS:END -->
 
