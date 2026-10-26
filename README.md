@@ -25,7 +25,7 @@
 I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)** — open-source Python infrastructure that unifies **multimodal storage, incremental computation, vector indexing, tool-calling agents, and FastAPI serving** in a single declarative `app.py`.
 
 <!-- PIXELTABLE-META:START -->
-> 📦 **Latest release:** [`v0.7.20`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.20) &nbsp;·&nbsp; ⭐ **1,648 stars** &nbsp;·&nbsp; 🍴 **232 forks** &nbsp;·&nbsp; 🧪 **[37 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
+> 📦 **Latest release:** [`v0.7.20`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.20) &nbsp;·&nbsp; ⭐ **1,649 stars** &nbsp;·&nbsp; 🍴 **232 forks** &nbsp;·&nbsp; 🧪 **[38 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
 <!-- PIXELTABLE-META:END -->
 
 ---
@@ -45,18 +45,18 @@ I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)
 ### Latest Runnable Pixeltable Apps
 
 <!-- AWESOME-APPS:START -->
-_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (37 apps total, newest first):_
+_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (38 apps total, newest first):_
 
 | App | Architecture & Features | Launch |
 | :--- | :--- | :---: |
+| **[Observatory Night Log](https://github.com/pierrebrunelle/pixeltable-observatory-night-log)**<br><sub>2026-10-26</sub> | Migrate a messy legacy observatory night log CSV into Pixeltable without losing a row: parse coordinates and photometry as computed columns, keep each failed parse as a per-column error, fix the source values and recompute only the failed cells<br><sub>`Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-observatory-night-log?quickstart=1) |
 | **[Procurement Approval Agent](https://github.com/pierrebrunelle/pixeltable-procurement-agent-audit)**<br><sub>2026-10-25</sub> | Procurement approval agent whose every decision is versioned: read the agent's verdicts as of any table version, see why one request was decided the way it was across policy changes, roll back a bad policy rollout with revert() and freeze a quarter-close snapshot<br><sub>`Versioning & snapshots` · `AI model functions` · `Computed columns & UDFs` · `pxt CLI & dashboard` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-procurement-agent-audit?quickstart=1) |
 | **[Theater Rehearsal Call Board](https://github.com/pierrebrunelle/pixeltable-rehearsal-call-board)**<br><sub>2026-10-24</sub> | Stage-management dashboard for a Twelfth Night rehearsal period: call hours, punctuality, absences and department notes from joins and JSON list functions, plus OpenTelemetry traces of every Pixeltable operation stored back in a table<br><sub>`pxt CLI & dashboard` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-rehearsal-call-board?quickstart=1) |
 | **[Marketplace Listing Photo & Video Moderation](https://github.com/pierrebrunelle/pixeltable-listing-photo-moderation)**<br><sub>2026-10-23</sub> | Trust-and-safety pipeline for marketplace listings: text moderation, a gpt-4o-mini vision verdict with boxes, box post-processing and mAP against human labels, per-frame video checks and voice-over transcripts scanned for off-platform contact<br><sub>`Media (images)` · `AI model functions` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-listing-photo-moderation?quickstart=1) |
 | **[Bakery Order Ledger](https://github.com/pierrebrunelle/pixeltable-bakery-order-ledger)**<br><sub>2026-10-22</sub> | Bakery order ledger with a built-in audit trail: every edit is a Pixeltable table version, so you can read the ledger as of any version, diff two versions by order, restore a deleted order, freeze end-of-day snapshots and roll back a bad bulk edit<br><sub>`Versioning & snapshots` · `Computed columns & UDFs` · `pxt CLI & dashboard` · `Pixeltable Cloud` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-bakery-order-ledger?quickstart=1) |
-| **[Delivery-Driver Incident Intake](https://github.com/pierrebrunelle/pixeltable-driver-incident-intake)**<br><sub>2026-10-21</sub> | Incident intake API for delivery drivers: voice note + photo upload, transcription, Pydantic-validated structured records from a vision model, async dispatch routing and SQL export<br><sub>`FastAPI serving` · `Computed columns & UDFs` · `Concurrency` · `Data reads & writes` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-driver-incident-intake?quickstart=1) |
 
 <div align="right">
-  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 37 runnable apps in the interactive gallery →</a></sub>
+  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 38 runnable apps in the interactive gallery →</a></sub>
 </div>
 <!-- AWESOME-APPS:END -->
 
