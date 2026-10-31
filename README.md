@@ -25,7 +25,7 @@
 I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)** — open-source Python infrastructure that unifies **multimodal storage, incremental computation, vector indexing, tool-calling agents, and FastAPI serving** in a single declarative `app.py`.
 
 <!-- PIXELTABLE-META:START -->
-> 📦 **Latest release:** [`v0.7.22`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.22) &nbsp;·&nbsp; ⭐ **1,652 stars** &nbsp;·&nbsp; 🍴 **232 forks** &nbsp;·&nbsp; 🧪 **[42 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
+> 📦 **Latest release:** [`v0.7.22`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.22) &nbsp;·&nbsp; ⭐ **1,652 stars** &nbsp;·&nbsp; 🍴 **232 forks** &nbsp;·&nbsp; 🧪 **[43 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
 <!-- PIXELTABLE-META:END -->
 
 ---
@@ -45,18 +45,18 @@ I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)
 ### Latest Runnable Pixeltable Apps
 
 <!-- AWESOME-APPS:START -->
-_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (42 apps total, newest first):_
+_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (43 apps total, newest first):_
 
 | App | Architecture & Features | Launch |
 | :--- | :--- | :---: |
+| **[Bike Repair Guides](https://github.com/pierrebrunelle/pixeltable-bike-repair-rag)**<br><sub>2026-10-31</sub> | A retrieval-augmented bike repair assistant with no LangChain, LlamaIndex or vector database: Markdown guides split by heading, an embedding index, @pxt.query retrieval tools and a Claude tool-calling agent that answers with citations, all as Pixeltable tables, views and computed columns<br><sub>`Agents & tool calling` · `Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-bike-repair-rag?quickstart=1) |
 | **[Rail Yard Switch Inspection](https://github.com/pierrebrunelle/pixeltable-rail-switch-inspection)**<br><sub>2026-10-30</sub> | Inspect rail yard switch throws from trackside video: keyframe-accurate clips, blade position per clip, a vision-model note with semantic search, and switch-motor run times split from the audio at its silences, all as Pixeltable computed columns and views<br><sub>`Media (images)` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-rail-switch-inspection?quickstart=1) |
 | **[high-school physics exams](https://github.com/pierrebrunelle/pixeltable-physics-exam-question-bank)**<br><sub>2026-10-29</sub> | Turn physics chapter PDFs into a validated multiple-choice question bank: page-aware splitting, gpt-4o-mini with a strict JSON schema, Pydantic validation, one row per question, JSON export<br><sub>`Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-physics-exam-question-bank?quickstart=1) |
 | **[Chess Tournament Broadcast](https://github.com/pierrebrunelle/pixeltable-chess-broadcast-scenes)**<br><sub>2026-10-28</sub> | Turn chess tournament broadcast recordings into scenes, keyframes, per-shot frames, the final board of every game and highlight clips, with every step a Pixeltable computed column or view<br><sub>`Media (images)` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-chess-broadcast-scenes?quickstart=1) |
 | **[Equipment Manuals](https://github.com/pierrebrunelle/pixeltable-equipment-manual-chat)**<br><sub>2026-10-27</sub> | Chat-with-your-PDFs API for equipment manuals: upload PDF or Markdown manuals, page-aware chunking, an embedding index, and cited gpt-4o-mini answers from one FastAPIRouter<br><sub>`FastAPI serving` · `Concurrency` · `Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-equipment-manual-chat?quickstart=1) |
-| **[Observatory Night Log](https://github.com/pierrebrunelle/pixeltable-observatory-night-log)**<br><sub>2026-10-26</sub> | Migrate a messy legacy observatory night log CSV into Pixeltable without losing a row: parse coordinates and photometry as computed columns, keep each failed parse as a per-column error, fix the source values and recompute only the failed cells<br><sub>`Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-observatory-night-log?quickstart=1) |
 
 <div align="right">
-  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 42 runnable apps in the interactive gallery →</a></sub>
+  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 43 runnable apps in the interactive gallery →</a></sub>
 </div>
 <!-- AWESOME-APPS:END -->
 
