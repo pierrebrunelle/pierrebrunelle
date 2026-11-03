@@ -25,7 +25,7 @@
 I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)** — open-source Python infrastructure that unifies **multimodal storage, incremental computation, vector indexing, tool-calling agents, and FastAPI serving** in a single declarative `app.py`.
 
 <!-- PIXELTABLE-META:START -->
-> 📦 **Latest release:** [`v0.7.23`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.23) &nbsp;·&nbsp; ⭐ **1,653 stars** &nbsp;·&nbsp; 🍴 **234 forks** &nbsp;·&nbsp; 🧪 **[45 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
+> 📦 **Latest release:** [`v0.7.23`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.23) &nbsp;·&nbsp; ⭐ **1,656 stars** &nbsp;·&nbsp; 🍴 **234 forks** &nbsp;·&nbsp; 🧪 **[46 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
 <!-- PIXELTABLE-META:END -->
 
 ---
@@ -45,18 +45,18 @@ I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)
 ### Latest Runnable Pixeltable Apps
 
 <!-- AWESOME-APPS:START -->
-_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (45 apps total, newest first):_
+_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (46 apps total, newest first):_
 
 | App | Architecture & Features | Launch |
 | :--- | :--- | :---: |
+| **[Wildlife Camera Traps](https://github.com/pierrebrunelle/pixeltable-camera-trap-events)**<br><sub>2026-11-03</sub> | Split trail-camera recordings into trigger events at their own motion-sensor times, grab the middle frame of each event and name what triggered the camera with YOLOX object detection, all as Pixeltable computed columns and views<br><sub>`Media (images)` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-camera-trap-events?quickstart=1) |
 | **[Vintage Poster Catalog](https://github.com/pierrebrunelle/pixeltable-vintage-poster-search)**<br><sub>2026-11-02</sub> | A searchable vintage poster catalog where the images, the metadata, the sales and two CLIP vector indexes live in Pixeltable tables: text-to-image, image-to-image and filtered vector search plus joins, with no S3 bucket, metadata database or vector store to keep in sync<br><sub>`Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-vintage-poster-search?quickstart=1) |
 | **[Library Hold Queues](https://github.com/pierrebrunelle/pixeltable-library-holds-cli)**<br><sub>2026-11-01</sub> | A command-line hold queue for a public library: titles and patron holds as Pixeltable tables with computed shelf-slip codes and pickup deadlines, a pxt config doctor, and a service client that honors 503 Retry-After (JOB_REFUSED) from Pixeltable background job routes<br><sub>`pxt CLI & dashboard` · `FastAPI serving` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-library-holds-cli?quickstart=1) |
 | **[Bike Repair Guides](https://github.com/pierrebrunelle/pixeltable-bike-repair-rag)**<br><sub>2026-10-31</sub> | A retrieval-augmented bike repair assistant with no LangChain, LlamaIndex or vector database: Markdown guides split by heading, an embedding index, @pxt.query retrieval tools and a Claude tool-calling agent that answers with citations, all as Pixeltable tables, views and computed columns<br><sub>`Agents & tool calling` · `Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-bike-repair-rag?quickstart=1) |
 | **[Rail Yard Switch Inspection](https://github.com/pierrebrunelle/pixeltable-rail-switch-inspection)**<br><sub>2026-10-30</sub> | Inspect rail yard switch throws from trackside video: keyframe-accurate clips, blade position per clip, a vision-model note with semantic search, and switch-motor run times split from the audio at its silences, all as Pixeltable computed columns and views<br><sub>`Media (images)` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-rail-switch-inspection?quickstart=1) |
-| **[high-school physics exams](https://github.com/pierrebrunelle/pixeltable-physics-exam-question-bank)**<br><sub>2026-10-29</sub> | Turn physics chapter PDFs into a validated multiple-choice question bank: page-aware splitting, gpt-4o-mini with a strict JSON schema, Pydantic validation, one row per question, JSON export<br><sub>`Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-physics-exam-question-bank?quickstart=1) |
 
 <div align="right">
-  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 45 runnable apps in the interactive gallery →</a></sub>
+  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 46 runnable apps in the interactive gallery →</a></sub>
 </div>
 <!-- AWESOME-APPS:END -->
 
