@@ -25,7 +25,7 @@
 I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)** — open-source Python infrastructure that unifies **multimodal storage, incremental computation, vector indexing, tool-calling agents, and FastAPI serving** in a single declarative `app.py`.
 
 <!-- PIXELTABLE-META:START -->
-> 📦 **Latest release:** [`v0.7.23`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.23) &nbsp;·&nbsp; ⭐ **1,659 stars** &nbsp;·&nbsp; 🍴 **235 forks** &nbsp;·&nbsp; 🧪 **[48 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
+> 📦 **Latest release:** [`v0.7.23`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.23) &nbsp;·&nbsp; ⭐ **1,659 stars** &nbsp;·&nbsp; 🍴 **235 forks** &nbsp;·&nbsp; 🧪 **[49 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
 <!-- PIXELTABLE-META:END -->
 
 ---
@@ -45,18 +45,18 @@ I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)
 ### Latest Runnable Pixeltable Apps
 
 <!-- AWESOME-APPS:START -->
-_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (48 apps total, newest first):_
+_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (49 apps total, newest first):_
 
 | App | Architecture & Features | Launch |
 | :--- | :--- | :---: |
+| **[Youth Soccer Match Recordings](https://github.com/pierrebrunelle/pixeltable-youth-soccer-ingest)**<br><sub>2026-11-06</sub> | Ingest youth soccer match videos on a schedule with timezone-aware kickoffs and highlight clips<br><sub>`Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-youth-soccer-ingest?quickstart=1) |
 | **[Ski-Lift Pass Gates](https://github.com/pierrebrunelle/pixeltable-ski-lift-pass-cli)**<br><sub>2026-11-05</sub> | A command-line tool for ski-lift turnstiles: passes and gate scans as Pixeltable tables with a computed gate verdict, a per-zone view built with list_iterator, OpenTelemetry span traces of every command, and the same commands against a Pixeltable Cloud database<br><sub>`pxt CLI & dashboard` · `Media (images)` · `Computed columns & UDFs` · `Pixeltable Cloud` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-ski-lift-pass-cli?quickstart=1) |
 | **[Coral Reef Survey Photos](https://github.com/pierrebrunelle/pixeltable-coral-reef-label-roundtrip)**<br><sub>2026-11-04</sub> | Segment coral-reef survey photos, send the model's boxes to Label Studio as pre-annotations, re-import the reviewed labels and diff them against the model, with COCO and LanceDB exports, all as Pixeltable tables and computed columns<br><sub>`Computed columns & UDFs` · `Media (images)` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-coral-reef-label-roundtrip?quickstart=1) |
 | **[Wildlife Camera Traps](https://github.com/pierrebrunelle/pixeltable-camera-trap-events)**<br><sub>2026-11-03</sub> | Split trail-camera recordings into trigger events at their own motion-sensor times, grab the middle frame of each event and name what triggered the camera with YOLOX object detection, all as Pixeltable computed columns and views<br><sub>`Media (images)` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-camera-trap-events?quickstart=1) |
 | **[Vintage Poster Catalog](https://github.com/pierrebrunelle/pixeltable-vintage-poster-search)**<br><sub>2026-11-02</sub> | A searchable vintage poster catalog where the images, the metadata, the sales and two CLIP vector indexes live in Pixeltable tables: text-to-image, image-to-image and filtered vector search plus joins, with no S3 bucket, metadata database or vector store to keep in sync<br><sub>`Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-vintage-poster-search?quickstart=1) |
-| **[Library Hold Queues](https://github.com/pierrebrunelle/pixeltable-library-holds-cli)**<br><sub>2026-11-01</sub> | A command-line hold queue for a public library: titles and patron holds as Pixeltable tables with computed shelf-slip codes and pickup deadlines, a pxt config doctor, and a service client that honors 503 Retry-After (JOB_REFUSED) from Pixeltable background job routes<br><sub>`pxt CLI & dashboard` · `FastAPI serving` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-library-holds-cli?quickstart=1) |
 
 <div align="right">
-  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 48 runnable apps in the interactive gallery →</a></sub>
+  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 49 runnable apps in the interactive gallery →</a></sub>
 </div>
 <!-- AWESOME-APPS:END -->
 
