@@ -25,7 +25,7 @@
 I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)** — open-source Python infrastructure that unifies **multimodal storage, incremental computation, vector indexing, tool-calling agents, and FastAPI serving** in a single declarative `app.py`.
 
 <!-- PIXELTABLE-META:START -->
-> 📦 **Latest release:** [`v0.7.24`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.24) &nbsp;·&nbsp; ⭐ **1,661 stars** &nbsp;·&nbsp; 🍴 **237 forks** &nbsp;·&nbsp; 🧪 **[54 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
+> 📦 **Latest release:** [`v0.7.24`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.24) &nbsp;·&nbsp; ⭐ **1,662 stars** &nbsp;·&nbsp; 🍴 **237 forks** &nbsp;·&nbsp; 🧪 **[54 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
 <!-- PIXELTABLE-META:END -->
 
 ---
