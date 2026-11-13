@@ -25,7 +25,7 @@
 I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)** — open-source Python infrastructure that unifies **multimodal storage, incremental computation, vector indexing, tool-calling agents, and FastAPI serving** in a single declarative `app.py`.
 
 <!-- PIXELTABLE-META:START -->
-> 📦 **Latest release:** [`v0.7.24`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.24) &nbsp;·&nbsp; ⭐ **1,662 stars** &nbsp;·&nbsp; 🍴 **239 forks** &nbsp;·&nbsp; 🧪 **[55 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
+> 📦 **Latest release:** [`v0.7.24`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.24) &nbsp;·&nbsp; ⭐ **1,662 stars** &nbsp;·&nbsp; 🍴 **239 forks** &nbsp;·&nbsp; 🧪 **[56 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
 <!-- PIXELTABLE-META:END -->
 
 ---
@@ -45,18 +45,18 @@ I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)
 ### Latest Runnable Pixeltable Apps
 
 <!-- AWESOME-APPS:START -->
-_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (55 apps total, newest first):_
+_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (56 apps total, newest first):_
 
 | App | Architecture & Features | Launch |
 | :--- | :--- | :---: |
+| **[Tailor Alterations](https://github.com/pierrebrunelle/pixeltable-tailor-fitting-labels)**<br><sub>2026-11-13</sub> | Review tailor fitting photos in FiftyOne and round-trip the labels back into versioned Pixeltable tables<br><sub>`Versioning & snapshots` · `Computed columns & UDFs` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-tailor-fitting-labels?quickstart=1) |
 | **[Autonomous Lawnmower Runs](https://github.com/pierrebrunelle/pixeltable-lawnmower-failure-clips)**<br><sub>2026-11-12</sub> | Cut robot-mower camera runs into 3-second clips, label failures and mine look-alike failure clips with CLIP, all in Pixeltable<br><sub>`Computed columns & UDFs` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-lawnmower-failure-clips?quickstart=1) |
 | **[Glacier station melt](https://github.com/pierrebrunelle/pixeltable-glacier-melt-dashboard)**<br><sub>2026-11-11</sub> | A static melt dashboard for glacier monitoring stations, built from JSON stake readings with Pixeltable's built-in array and aggregate functions<br><sub>`pxt CLI & dashboard` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-glacier-melt-dashboard?quickstart=1) |
 | **[tax-help FAQ bot](https://github.com/pierrebrunelle/pixeltable-tax-faq-rag-eval)**<br><sub>2026-11-10</sub> | A versioned RAG evaluation harness with an LLM judge for a tax-help FAQ bot, built on Pixeltable tables<br><sub>`Versioning & snapshots` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-tax-faq-rag-eval?quickstart=1) |
 | **[Recording Studio Sessions](https://github.com/pierrebrunelle/pixeltable-studio-session-agent)**<br><sub>2026-11-09</sub> | A recording-studio assistant agent that answers from Word session sheets, remembers client preferences, and calls tools, built on Pixeltable tables<br><sub>`Agents & tool calling` · `Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-studio-session-agent?quickstart=1) |
-| **[static-site generator source tree](https://github.com/pierrebrunelle/pixeltable-static-site-code-rag)**<br><sub>2026-11-08</sub> | A CLI that answers questions about a Git checkout of a static-site generator using Pixeltable sentence chunks and embeddings<br><sub>`pxt CLI & dashboard` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-static-site-code-rag?quickstart=1) |
 
 <div align="right">
-  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 55 runnable apps in the interactive gallery →</a></sub>
+  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 56 runnable apps in the interactive gallery →</a></sub>
 </div>
 <!-- AWESOME-APPS:END -->
 
