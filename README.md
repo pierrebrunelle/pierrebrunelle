@@ -25,7 +25,7 @@
 I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)** — open-source Python infrastructure that unifies **multimodal storage, incremental computation, vector indexing, tool-calling agents, and FastAPI serving** in a single declarative `app.py`.
 
 <!-- PIXELTABLE-META:START -->
-> 📦 **Latest release:** [`v0.7.24`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.24) &nbsp;·&nbsp; ⭐ **1,664 stars** &nbsp;·&nbsp; 🍴 **243 forks** &nbsp;·&nbsp; 🧪 **[59 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
+> 📦 **Latest release:** [`v0.7.24`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.24) &nbsp;·&nbsp; ⭐ **1,664 stars** &nbsp;·&nbsp; 🍴 **245 forks** &nbsp;·&nbsp; 🧪 **[60 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
 <!-- PIXELTABLE-META:END -->
 
 ---
@@ -45,18 +45,18 @@ I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)
 ### Latest Runnable Pixeltable Apps
 
 <!-- AWESOME-APPS:START -->
-_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (59 apps total, newest first):_
+_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (60 apps total, newest first):_
 
 | App | Architecture & Features | Launch |
 | :--- | :--- | :---: |
+| **[Brewery Batches](https://github.com/pierrebrunelle/pixeltable-brewery-batch-cli)**<br><sub>2026-11-17</sub> | A command-line tool for a brewery's fermentation log: batches and hydrometer readings as Pixeltable tables, ABV and attenuation from expression UDFs, temperature-corrected gravity readings, and the same commands against Pixeltable Cloud<br><sub>`pxt CLI & dashboard` · `Computed columns & UDFs` · `Pixeltable Cloud` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-brewery-batch-cli?quickstart=1) |
 | **[Satellite Crop Imagery](https://github.com/pierrebrunelle/pixeltable-satellite-crop-lakehouse)**<br><sub>2026-11-16</sub> | Multimodal data pipeline that scores satellite crop tiles with computed columns and exports to Parquet, Iceberg and LanceDB<br><sub>`Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-satellite-crop-lakehouse?quickstart=1) |
 | **[Cheese Caves](https://github.com/pierrebrunelle/pixeltable-cheese-cave-aging)**<br><sub>2026-11-15</sub> | Scheduled Excel intake pipeline for cheese cave batches and climate loggers, with a local proxy roll-up<br><sub>`pixeltable.toml config` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-cheese-cave-aging?quickstart=1) |
 | **[neighborhood lost-and-found](https://github.com/pierrebrunelle/pixeltable-lost-and-found-uploads)**<br><sub>2026-11-14</sub> | Neighborhood lost-and-found API: multipart photo and video uploads, thumbnails to a configurable media destination, gpt-4o-mini vision captions, and CLIP search by text or by photo from one FastAPIRouter<br><sub>`FastAPI serving` · `pixeltable.toml config` · `Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-lost-and-found-uploads?quickstart=1) |
 | **[Tailor Alterations](https://github.com/pierrebrunelle/pixeltable-tailor-fitting-labels)**<br><sub>2026-11-13</sub> | Review tailor fitting photos in FiftyOne and round-trip the labels back into versioned Pixeltable tables<br><sub>`Versioning & snapshots` · `Computed columns & UDFs` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-tailor-fitting-labels?quickstart=1) |
-| **[Autonomous Lawnmower Runs](https://github.com/pierrebrunelle/pixeltable-lawnmower-failure-clips)**<br><sub>2026-11-12</sub> | Cut robot-mower camera runs into 3-second clips, label failures and mine look-alike failure clips with CLIP, all in Pixeltable<br><sub>`Computed columns & UDFs` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-lawnmower-failure-clips?quickstart=1) |
 
 <div align="right">
-  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 59 runnable apps in the interactive gallery →</a></sub>
+  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 60 runnable apps in the interactive gallery →</a></sub>
 </div>
 <!-- AWESOME-APPS:END -->
 
