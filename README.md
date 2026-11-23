@@ -25,7 +25,7 @@
 I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)** — open-source Python infrastructure that unifies **multimodal storage, incremental computation, vector indexing, tool-calling agents, and FastAPI serving** in a single declarative `app.py`.
 
 <!-- PIXELTABLE-META:START -->
-> 📦 **Latest release:** [`v0.7.25`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.25) &nbsp;·&nbsp; ⭐ **1,664 stars** &nbsp;·&nbsp; 🍴 **245 forks** &nbsp;·&nbsp; 🧪 **[65 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
+> 📦 **Latest release:** [`v0.7.25`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.25) &nbsp;·&nbsp; ⭐ **1,664 stars** &nbsp;·&nbsp; 🍴 **245 forks** &nbsp;·&nbsp; 🧪 **[66 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
 <!-- PIXELTABLE-META:END -->
 
 ---
@@ -45,18 +45,18 @@ I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)
 ### Latest Runnable Pixeltable Apps
 
 <!-- AWESOME-APPS:START -->
-_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (65 apps total, newest first):_
+_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (66 apps total, newest first):_
 
 | App | Architecture & Features | Launch |
 | :--- | :--- | :---: |
+| **[Dental Recalls](https://github.com/pierrebrunelle/pixeltable-dental-recalls)**<br><sub>2026-11-23</sub> | A dental practice recall dashboard: JSON visit histories become recall due dates, overdue days and a call-list priority with Pixeltable's filter / map / sort / coalesce and math functions, and group_by @pxt.query reports are stored as weekly snapshots and rendered to Markdown and HTML<br><sub>`pxt CLI & dashboard` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-dental-recalls?quickstart=1) |
 | **[Parish Registers](https://github.com/pierrebrunelle/pixeltable-parish-graph)**<br><sub>2026-11-22</sub> | Graph RAG over parish registers: an LLM extracts people and relations into typed JSON, views turn them into an edge table with an embedding index, and two @pxt.query hops answer multi-hop genealogy questions<br><sub>`Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-parish-graph?quickstart=1) |
 | **[Kennel Boarding](https://github.com/pierrebrunelle/pixeltable-kennel-ledger)**<br><sub>2026-11-21</sub> | A kennel boarding ledger CLI where every stay is priced by computed columns, with row-count stats, version history and one-command revert<br><sub>`pxt CLI & dashboard` · `Computed columns & UDFs`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-kennel-ledger?quickstart=1) |
 | **[stained-glass commissions](https://github.com/pierrebrunelle/pixeltable-stained-glass-agent)**<br><sub>2026-11-20</sub> | A stained-glass workshop agent that answers commission questions over images, stored session notes and Python tools, with every step a Pixeltable computed column<br><sub>`Computed columns & UDFs` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-stained-glass-agent?quickstart=1) |
 | **[coastal tide-gauge stations](https://github.com/pierrebrunelle/pixeltable-tide-gauge-iterators)**<br><sub>2026-11-19</sub> | Split tide-gauge hydrophone clips into silence-aware chunks and water-level series into tide cycles with function-style and custom Pixeltable iterators<br><sub>`Computed columns & UDFs` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-tide-gauge-iterators?quickstart=1) |
-| **[architecture-firm drawing archive](https://github.com/pierrebrunelle/pixeltable-drawing-archive-mcp)**<br><sub>2026-11-18</sub> | Architecture-firm drawing archive served to agents over MCP: image sheets with thumbnails, gpt-4o-mini captions and an embedding index in Pixeltable, an MCP server exposing the searches as tools, and a question table whose LLM calls those tools via pxt.mcp_udfs<br><sub>`Agents & tool calling` · `FastAPI serving` · `Computed columns & UDFs` · `B-tree indexes` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-drawing-archive-mcp?quickstart=1) |
 
 <div align="right">
-  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 65 runnable apps in the interactive gallery →</a></sub>
+  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 66 runnable apps in the interactive gallery →</a></sub>
 </div>
 <!-- AWESOME-APPS:END -->
 
