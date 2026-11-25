@@ -25,7 +25,7 @@
 I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)** — open-source Python infrastructure that unifies **multimodal storage, incremental computation, vector indexing, tool-calling agents, and FastAPI serving** in a single declarative `app.py`.
 
 <!-- PIXELTABLE-META:START -->
-> 📦 **Latest release:** [`v0.7.26`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.26) &nbsp;·&nbsp; ⭐ **1,664 stars** &nbsp;·&nbsp; 🍴 **245 forks** &nbsp;·&nbsp; 🧪 **[67 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
+> 📦 **Latest release:** [`v0.7.26`](https://github.com/pixeltable/pixeltable/releases/tag/v0.7.26) &nbsp;·&nbsp; ⭐ **1,666 stars** &nbsp;·&nbsp; 🍴 **245 forks** &nbsp;·&nbsp; 🧪 **[68 runnable example apps](https://pierrebrunelle.github.io/awesome-pixeltable-apps/)**
 <!-- PIXELTABLE-META:END -->
 
 ---
@@ -45,18 +45,18 @@ I'm Co-Founder & CEO of **[Pixeltable](https://github.com/pixeltable/pixeltable)
 ### Latest Runnable Pixeltable Apps
 
 <!-- AWESOME-APPS:START -->
-_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (67 apps total, newest first):_
+_Auto-synced from [`pierrebrunelle/awesome-pixeltable-apps`](https://github.com/pierrebrunelle/awesome-pixeltable-apps) (68 apps total, newest first):_
 
 | App | Architecture & Features | Launch |
 | :--- | :--- | :---: |
+| **[Bonsai Nursery](https://github.com/pierrebrunelle/pixeltable-bonsai-labels)**<br><sub>2026-11-25</sub> | Label round-trip for a bonsai nursery: export Pixeltable tables to CSV, JSONL, Parquet, COCO and PyTorch, let graders edit the labels elsewhere, re-import with lossless type checks, and diff or revert each batch by table version<br><sub>`Versioning & snapshots` · `Computed columns & UDFs` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-bonsai-labels?quickstart=1) |
 | **[escape-room bookings](https://github.com/pierrebrunelle/pixeltable-escape-room-traces)**<br><sub>2026-11-24</sub> | LLM observability without another SaaS: Pixeltable's OpenTelemetry spans for every insert and gpt-4o-mini call land in a table next to the outputs, and group_by queries give latency, p95 and token usage per scheduled run<br><sub>`Computed columns & UDFs`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-escape-room-traces?quickstart=1) |
 | **[Dental Recalls](https://github.com/pierrebrunelle/pixeltable-dental-recalls)**<br><sub>2026-11-23</sub> | A dental practice recall dashboard: JSON visit histories become recall due dates, overdue days and a call-list priority with Pixeltable's filter / map / sort / coalesce and math functions, and group_by @pxt.query reports are stored as weekly snapshots and rendered to Markdown and HTML<br><sub>`pxt CLI & dashboard` · `Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-dental-recalls?quickstart=1) |
 | **[Parish Registers](https://github.com/pierrebrunelle/pixeltable-parish-graph)**<br><sub>2026-11-22</sub> | Graph RAG over parish registers: an LLM extracts people and relations into typed JSON, views turn them into an edge table with an embedding index, and two @pxt.query hops answer multi-hop genealogy questions<br><sub>`Computed columns & UDFs` · `B-tree indexes`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-parish-graph?quickstart=1) |
 | **[Kennel Boarding](https://github.com/pierrebrunelle/pixeltable-kennel-ledger)**<br><sub>2026-11-21</sub> | A kennel boarding ledger CLI where every stay is priced by computed columns, with row-count stats, version history and one-command revert<br><sub>`pxt CLI & dashboard` · `Computed columns & UDFs`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-kennel-ledger?quickstart=1) |
-| **[stained-glass commissions](https://github.com/pierrebrunelle/pixeltable-stained-glass-agent)**<br><sub>2026-11-20</sub> | A stained-glass workshop agent that answers commission questions over images, stored session notes and Python tools, with every step a Pixeltable computed column<br><sub>`Computed columns & UDFs` · `Media (images)`</sub> | [![Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pierrebrunelle/pixeltable-stained-glass-agent?quickstart=1) |
 
 <div align="right">
-  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 67 runnable apps in the interactive gallery →</a></sub>
+  <sub><a href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">Browse all 68 runnable apps in the interactive gallery →</a></sub>
 </div>
 <!-- AWESOME-APPS:END -->
 
